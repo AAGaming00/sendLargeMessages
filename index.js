@@ -10,6 +10,7 @@ module.exports = class SendLargeMessage extends Plugin {
     uninject('largeMessages');
     uninject('largeMessages-limit-remover');
     uninject('largeMessages-max-remover');
+    getModule([ 'MAX_MESSAGE_LENGTH' ], false).MAX_MESSAGE_LENGTH = 2000;
   }
 
   // modified from https://github.com/mwittrien/BetterDiscordAddons/blob/1da72ed36acbad108f4cf6264577054d54ebb157/Plugins/SendLargeMessages/SendLargeMessages.plugin.js#L126
