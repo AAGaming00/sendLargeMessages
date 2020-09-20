@@ -1,0 +1,8 @@
+{
+  "name": "Send Large Messages",
+  "version": "1.0.0",
+  "description": "A powercord plugin that splits messages over 2000 characters into smaller chunks.",
+  "author": "AAGaming#9395",
+  "license": "MIT"
+}
+  
